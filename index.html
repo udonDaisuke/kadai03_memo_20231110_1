@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>   
+    <header>
+        <div class="header-area">
+            <h1 class="title">Progress Tree</h1>
+            <p class="menu">MENU</p>
+        </div>
+    </header>
+    <!-- モーダル実装　https://zero-plus.io/media/jquery-modal/ -->
+    <div class="mordal-overlay">
+        <div class="mordal-win">
+            <p class="mordal-msg">Welcome to Progress Tree</p>
+            <p class="mordal-btn" id="mdl-btn-start">Newly Start</p>        
+            <p class="mordal-btn" id="mdl-btn-resume">Resume</p>        
+        </div>
+    </div>
+
+    <main class="main-area">
+        <!-- *side menu -->
+        <div class="side-list">
+            <div class="task-list-title">
+                <h2 class="task-list-title1">Task list:    </h2>
+                <p id="add-goal-btn">Add goal</p>
+            </div>
+            <div class="task-list-items">
+            </div>
+            <div class="open-task">
+                <p class="open-task-txt">◀ Open</p>
+            </div>
+        </div>
+        <!-- *simulation box -->
+        <div class="canvas-area">
+            <canvas class="canvas"></canvas>
+        </div>
+
+
+        
+
+
+    </main>
+    <footer>ddddd</footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- https://www.shin-inc.jp/column/canvas-physics-simulation/ -->
+        <!-- https://codepen.io/DonKarlssonSan/pen/BopXpq -->
+        <script src="js/dla.js"></script>
+<!-- akoordion -->
+<!-- https://www.otsuka-bs.co.jp/web-creation/blog/archive/20230127-10.html -->
+</body>
+</html>
